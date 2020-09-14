@@ -1,0 +1,7 @@
+# Metals
+.metals
+.scalafmt.conf
+
+# Editors
+.idea
+.vscode
