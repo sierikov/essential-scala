@@ -24,7 +24,8 @@ file with interesting question about scala semantic.
 
 Here is complete table of all tasks:
 
-- nothing
+1. [Type and Value](./tasks/1-type-and-value/task.md)
+2. [Operator Style](./tasks/2-operator-style/task.md)
 
 ## Meta
 
