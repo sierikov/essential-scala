@@ -17,7 +17,8 @@ essential-scala
 ```
 
 Optionall it can have an alternative solution in
-`solution.alt.scala`
+`solution.alt.scala`. Sometimes it also has an `extra.md`
+file with interesting question about scala semantic.
 
 ## List of tasks
 
