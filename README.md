@@ -26,6 +26,7 @@ Here is complete table of all tasks:
 
 1. [Type and Value](./tasks/1-type-and-value/task.md)
 2. [Operator Style](./tasks/2-operator-style/task.md)
+3. [Literal Objects](./tasks/3-literal-objects/task.md)
 
 ## Meta
 
