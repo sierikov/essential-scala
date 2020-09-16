@@ -28,6 +28,7 @@ Here is complete table of all tasks:
 2. [Operator Style](./tasks/2-operator-style/task.md)
 3. [Literal Objects](./tasks/3-literal-objects/task.md)
 4. [Cat-o-matique](./tasks/4-cat-o-matique/task.md)
+5. [Square Dance!](./tasks/5-square-dance/task.md)
 
 ## Meta
 
