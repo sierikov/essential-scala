@@ -29,6 +29,8 @@ Here is complete table of all tasks:
 3. [Literal Objects](./tasks/3-literal-objects/task.md)
 4. [Cat-o-matique](./tasks/4-cat-o-matique/task.md)
 5. [Square Dance!](./tasks/5-square-dance/task.md)
+6. [Percise Square Dance!](./tasks/6-precise-square-dance/task.md)
+7. [Greetings, Human](./tasks/7-greetings-human/task.md)
 
 ## Meta
 
