@@ -1,8 +1,13 @@
 class Counter(val count: Int) {
-  def inc = new Counter(count + 1)
-  def dec = new Counter(count - 1)
+  // Backward compatibility for new Counter(20).inc
+  def inc: Counter = inc()
+  def dec: Counter = dec()
+
+  def inc(value: Int = 1) = new Counter(count + value)
+  def dec(value: Int = 1) = new Counter(count - value)
 }
 
 object solution extends App {
   new Counter(10).inc.dec.inc.inc.count // res23: Int = 12
+  new Counter(10).inc.inc(10).count // Stage 2 - res25: Int = 21
 }
