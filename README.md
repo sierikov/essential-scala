@@ -33,6 +33,7 @@ Here is complete table of all tasks:
 7. [Greetings, Human](./tasks/07-greetings-human/task.md)
 8. [Cats, again](./tasks/08-cats-again/task.md)
 9. [Directorial Debut](./tasks/09-directorial-debut/task.md)
+10. [Simple Counter](./tasks/10-simple-counter/task.md)
 
 ## Meta
 
