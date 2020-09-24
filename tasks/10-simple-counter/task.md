@@ -17,7 +17,7 @@ Augment the `Counter` from the previous exercise to allow the user can
 optionally pass an `Int` parameter to `inc` and `dec`. If the parameter is
 omitted it should default to `1`.
 
-*Stage 3*: Additional Counting
+*Stage 3*: Additional Counting  
 Here is a simple class called `Adder`.
 
 ```scala

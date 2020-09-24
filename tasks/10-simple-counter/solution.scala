@@ -5,6 +5,12 @@ class Counter(val count: Int) {
 
   def inc(value: Int = 1) = new Counter(count + value)
   def dec(value: Int = 1) = new Counter(count - value)
+
+  def adjust(adder: Adder) = new Counter(adder.add(count))
+}
+
+class Adder(amount: Int) {
+  def add(in: Int) = in + amount
 }
 
 object solution extends App {
