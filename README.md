@@ -32,6 +32,7 @@ Here is complete table of all tasks:
 6. [Percise Square Dance!](./tasks/6-precise-square-dance/task.md)
 7. [Greetings, Human](./tasks/7-greetings-human/task.md)
 8. [Cats, again](./tasks/8-cats-again/task.md)
+9. [Directorial Debut](./tasks/9-directorial-debut/task.md)
 
 ## Meta
 
