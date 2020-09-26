@@ -1,6 +1,6 @@
 # Friendly Person Factory
 
-**Reference**: 3.1.6.4
+**Reference**: 3.3.2.1
 
 **Description**:  
 Implement a companion object for `Person` containing an `apply` method that

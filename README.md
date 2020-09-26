@@ -35,6 +35,7 @@ Here is complete table of all tasks:
 9. [Directorial Debut](./tasks/09-directorial-debut/task.md)
 10. [Simple Counter](./tasks/10-simple-counter/task.md)
 11. [Friendly Person Factory](./tasks/11-friendly-person-factory/task.md)
+12. [Body of Work](./tasks/12-body-of-work/task.md)
 
 ## Meta
 
