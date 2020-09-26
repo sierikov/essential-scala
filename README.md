@@ -34,6 +34,7 @@ Here is complete table of all tasks:
 8. [Cats, again](./tasks/08-cats-again/task.md)
 9. [Directorial Debut](./tasks/09-directorial-debut/task.md)
 10. [Simple Counter](./tasks/10-simple-counter/task.md)
+11. [Friendly Person Factory](./tasks/11-friendly-person-factory/task.md)
 
 ## Meta
 
