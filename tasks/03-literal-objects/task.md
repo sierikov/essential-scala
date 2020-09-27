@@ -1,4 +1,4 @@
-# Operator Style
+# Literal Objects
 
 **Reference**: 2.3.8
 

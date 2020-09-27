@@ -1,8 +1,6 @@
-# Robert Ebert said once
+# More Cats
 
-> No good movie is too long and no bad movie is short enough.
-
-**Reference**: 3.3.2.2
+**Reference**: 4.1.4.1
 
 **Description**:  
 Demand for Cat Simulator 1.0 is exploding! For v2 we’re
