@@ -5,3 +5,6 @@
 # Editors
 .idea
 .vscode
+
+# Os
+.DS_Store
