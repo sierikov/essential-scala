@@ -39,6 +39,7 @@ Here is complete table of all tasks:
 13. [Robert Ebert](./tasks/13-robert-ebert/task.md)
 14. [Feed the Cats](./tasks/14-feed-the-cats/task.md)
 15. [Get off My Lawn](./tasks/15-get-off-my-lawn/task.md)
+16. [More Cats](./tasks/16-more-cats/task.md)
 
 ## Meta
 
