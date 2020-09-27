@@ -3,17 +3,15 @@ trait Feline {
   def sound: String
 }
 
-case class Tiger(colour: String) extends Feline {
-  val sound = "roar"
+trait BigCat extends Feline {
+  override val sound: String = "roar"
 }
 
-case class Lion(colour: String, maneSize: Int) extends Feline {
-  val sound = "roar"
-}
+case class Tiger(colour: String) extends BigCat
 
-case class Panter(colour: String) extends Feline {
-  val sound = "roar"
-}
+case class Lion(colour: String, maneSize: Int) extends BigCat
+
+case class Panter(colour: String) extends BigCat
 
 case class Cat(colour: String, favouriteFood: String) extends Feline {
   val sound = "meow"
