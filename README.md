@@ -37,6 +37,7 @@ Here is complete table of all tasks:
 11. [Friendly Person Factory](./tasks/11-friendly-person-factory/task.md)
 12. [Body of Work](./tasks/12-body-of-work/task.md)
 13. [Robert Ebert](./tasks/13-robert-ebert/task.md)
+14. [Feed the Cats](./tasks/14-feed-the-cats/task.md)
 
 ## Meta
 
