@@ -4,7 +4,11 @@
 
 # Editors
 .idea
+essential-scala.iml
 .vscode
 
 # Os
 .DS_Store
+
+# Build
+out/
