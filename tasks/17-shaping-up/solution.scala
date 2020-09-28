@@ -1,6 +1,8 @@
 trait Shape {
   def sides: Int
+
   def perimeter: Double
+
   def area: Double
 }
 
@@ -10,14 +12,24 @@ case class Circle(radius: Double) extends Shape {
   val area: Double = math.Pi * math.pow(radius, 2)
 }
 
-case class Rectangle(width: Double, height: Double) extends Shape {
+sealed trait Rectangular extends Shape {
   val sides = 4
-  val perimeter: Double = 2 * (width + height)
-  val area: Double = width * height
+  override val perimeter: Double = 2 * (width + height)
+  override val area: Double = width * height
+
+  def width: Double
+
+  def height: Double
 }
 
-case class Square(side: Double) extends Shape {
-  val sides = 4
-  val perimeter: Double = 4 * side
-  val area: Double = math.pow(side, 2)
+case class Rectangle(width: Double, height: Double) extends Rectangular
+
+case class Square(size: Double) extends Rectangular {
+  val width: Double = size
+  val height: Double = size
+}
+
+object solution extends App {
+  Square(4).perimeter
+  Square(4).area
 }

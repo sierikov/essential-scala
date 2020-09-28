@@ -15,3 +15,11 @@ Ensure that the main constructor parameters of each shape (e.g. the radius of t
 are accessible as fields.
 
 Tip: The value of π is accessible as `math.Pi`.
+
+*Stage 2*: The solution from the exercise delivered three distinct types of shape.
+However, it doesn’t model the relationships between the three correctly. A `Square`
+isn’t just a `Shape` — it’s also a type of `Rectangle` where the width and height are
+the same.
+           
+Refactor the solution to the last exercise so that `Square` and `Rectangle` are subtypes
+of a common type `Rectangular`. 
