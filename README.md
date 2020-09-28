@@ -16,7 +16,7 @@ essential-scala
     └── task.md
 ```
 
-Optionall it can have an alternative solution in
+Optionally it can have an alternative solution in
 `solution.alt.scala`. Sometimes it also has an `extra.md`
 file with interesting question about scala semantic.
 
@@ -29,7 +29,7 @@ Here is complete table of all tasks:
 3. [Literal Objects](./tasks/03-literal-objects/task.md)
 4. [Cat-o-matique](./tasks/04-cat-o-matique/task.md)
 5. [Square Dance!](./tasks/05-square-dance/task.md)
-6. [Percise Square Dance!](./tasks/06-precise-square-dance/task.md)
+6. [Precise Square Dance!](./tasks/06-precise-square-dance/task.md)
 7. [Greetings, Human](./tasks/07-greetings-human/task.md)
 8. [Cats, again](./tasks/08-cats-again/task.md)
 9. [Directorial Debut](./tasks/09-directorial-debut/task.md)
@@ -40,8 +40,9 @@ Here is complete table of all tasks:
 14. [Feed the Cats](./tasks/14-feed-the-cats/task.md)
 15. [Get off My Lawn](./tasks/15-get-off-my-lawn/task.md)
 16. [More Cats](./tasks/16-more-cats/task.md)
+17. [Shaping Up](./tasks/17-shaping-up/task.md)
 
 ## Meta
 
-Author: [Sierikov](github.com/sierikov)  
+Author: [Sierikov](https://github.com/sierikov)  
 License: [MIT](LICENSE.md)
