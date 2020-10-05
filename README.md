@@ -43,6 +43,7 @@ Here is complete table of all tasks:
 17. [Shaping Up](./tasks/17-shaping-up/task.md)
 18. [Printing Shapes](./tasks/18-printing-shapes/task.md)
 19. [Stop on a Dime](./tasks/19-stop-on-a-dime/task.md)
+20. [Water, Water, Everywhere](./tasks/20-water-water-everywhere/task.md)
 
 ## Meta
 
