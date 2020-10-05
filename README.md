@@ -42,6 +42,7 @@ Here is complete table of all tasks:
 16. [More Cats](./tasks/16-more-cats/task.md)
 17. [Shaping Up](./tasks/17-shaping-up/task.md)
 18. [Printing Shapes](./tasks/18-printing-shapes/task.md)
+19. [Stop on a Dime](./tasks/19-stop-on-a-dime/task.md)
 
 ## Meta
 
