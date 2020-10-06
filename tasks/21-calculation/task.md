@@ -21,3 +21,15 @@ assert(Calculator.+(Success(1), 1) == Success(2))
 assert(Calculator.-(Success(1), 1) == Success(0))
 assert(Calculator.+(Failure("Badness"), 1) == Failure("Badness"))
 ```
+
+*Stage 3*: Now write a division method that fails if the divisor
+is 0. The following tests should pass. Note the behavior for the
+last test. This indicates “fail fast” behavior. If a calculation
+has already failed we keep that failure and don’t process any more
+data even if, as is the case in the test, doing so would lead to another failure.
+
+```scala
+assert(Calculator./(Success(4), 2) == Success(2))
+assert(Calculator./(Success(4), 0) == Failure("Division by zero"))
+assert(Calculator./(Failure("Badness"), 0) == Failure("Badness"))
+```
