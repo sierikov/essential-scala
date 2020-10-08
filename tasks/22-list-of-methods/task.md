@@ -3,7 +3,7 @@
 **Reference**: 4.6.3
 
 **Description**:  
-Using our definition of IntList:
+Using our definition of `IntList`:
 
 ```scala
 sealed trait IntList
@@ -22,4 +22,13 @@ val example = Pair(1, Pair(2, Pair(3, End)))
 assert(example.length == 3)
 assert(example.tail.length == 2)
 assert(End.length == 0)
+```
+
+*Stage 2*: Define a method to compute the product of the elements
+in an `IntList`. Test cases are below.
+
+```scala
+assert(example.product == 6)
+assert(example.tail.product == 6)
+assert(End.product == 1)
 ```
