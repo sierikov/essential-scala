@@ -10,13 +10,22 @@ The catalog structure is following:
 
 ```bash
 essential-scala
+├── projects
 ├── ...
-└── 01-problem-name
-    ├── solution.scala
-    └── task.md
+└── tasks
+    ├── 01-problem-name
+    │   ├── solution.scala
+    │   └── task.md
+    └── ...
 ```
 
-Optionally it can have an alternative solution in
+This repository contains little *tasks* and more complicated
+*projects*.
+
+A Task has `solution.scala` and description of the problem in the
+`task.md` file.
+
+Optionally task can have an alternative solution in
 `solution.alt.scala`. Sometimes it also has an `extra.md`
 file with interesting question about scala semantic.
 
