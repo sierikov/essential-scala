@@ -10,6 +10,12 @@ sealed trait IntList {
       case Pair(head, tail) => head * tail.product
       case End              => 1
     }
+
+  def double: IntList =
+    this match {
+      case Pair(head, tail) => Pair(head * 2, tail.double)
+      case End              => End
+    }
 }
 
 case object End extends IntList
@@ -25,4 +31,8 @@ object solution extends App {
   assert(example.product == 6)
   assert(example.tail.product == 6)
   assert(End.product == 1)
+
+  assert(example.double == Pair(2, Pair(4, Pair(6, End))))
+  assert(example.tail.double == Pair(4, Pair(6, End)))
+  assert(End.double == End)
 }

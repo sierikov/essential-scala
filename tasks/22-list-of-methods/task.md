@@ -32,3 +32,13 @@ assert(example.product == 6)
 assert(example.tail.product == 6)
 assert(End.product == 1)
 ```
+
+*Stage 3*: Define a method to double the value of each element
+in an `IntList`, returning a `new IntList`. The following test
+cases should hold:
+
+```scala
+assert(example.double == Pair(2, Pair(4, Pair(6, End))))
+assert(example.tail.double == Pair(4, Pair(6, End)))
+assert(End.double == End)
+```
