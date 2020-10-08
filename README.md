@@ -45,6 +45,7 @@ Here is complete table of all tasks:
 19. [Stop on a Dime](./tasks/19-stop-on-a-dime/task.md)
 20. [Water, Water, Everywhere](./tasks/20-water-water-everywhere/task.md)
 21. [Calculation](./tasks/21-calculation/task.md)
+22. [List of Methods](./tasks/22-list-of-methods/task.md)
 
 ## Meta
 
