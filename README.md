@@ -29,9 +29,15 @@ Optionally task can have an alternative solution in
 `solution.alt.scala`. Sometimes it also has an `extra.md`
 file with interesting question about scala semantic.
 
+## List of projects
+
+Here is a complete list of projects in this repo:
+
+1. [A Calculator](./projects/1-a-calculator/task.md)
+
 ## List of tasks
 
-Here is complete table of all tasks:
+Here is a complete list of all tasks:
 
 1. [Type and Value](./tasks/01-type-and-value/task.md)
 2. [Operator Style](./tasks/02-operator-style/task.md)
