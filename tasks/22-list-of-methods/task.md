@@ -42,3 +42,6 @@ assert(example.double == Pair(2, Pair(4, Pair(6, End))))
 assert(example.tail.double == Pair(4, Pair(6, End)))
 assert(End.double == End)
 ```
+
+*Stage 4*: Change the name to `LinkedList` and make it generic in the
+type of data stored in the list. Delete `product` and `double` methods.
