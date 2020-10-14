@@ -45,3 +45,17 @@ assert(End.double == End)
 
 *Stage 4*: Change the name to `LinkedList` and make it generic in the
 type of data stored in the list. Delete `product` and `double` methods.
+
+*Stage 5*: On the JVM we can compare all values for
+equality. Implement a method `contains` that determines
+whether or not a given item is in the list. Ensure your
+code works with the following test cases:
+
+```scala
+val example = Pair(1, Pair(2, Pair(3, End())))
+assert(example.contains(3) == true)
+assert(example.contains(4) == false)
+assert(End().contains(0) == false)
+// This should not compile
+// example.contains("not an Int")
+```
