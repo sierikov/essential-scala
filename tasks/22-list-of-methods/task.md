@@ -59,3 +59,21 @@ assert(End().contains(0) == false)
 // This should not compile
 // example.contains("not an Int")
 ```
+
+*Stage 6*: Implement a method `apply` that returns the
+`n`-th item in the list
+
+Tests:
+
+```scala
+val example = Pair(1, Pair(2, Pair(3, End())))
+assert(example(0) == 1)
+assert(example(1) == 2)
+assert(example(2) == 3)
+assert(try {
+  example(3)
+  false
+} catch {
+  case e: Exception => true
+})
+```

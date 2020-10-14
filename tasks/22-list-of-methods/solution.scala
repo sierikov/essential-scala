@@ -1,4 +1,13 @@
 sealed trait LinkedList[A] {
+  def apply(index: Int): A = {
+    this match {
+      case Pair(head, tail) =>
+        if (index == 0) head
+        else tail(index - 1)
+      case End() => throw new IndexOutOfBoundsException("Index Out Of Bounds")
+    }
+  }
+
   def length: Int =
     this match {
       case Pair(_, tail) => 1 + tail.length
@@ -29,4 +38,14 @@ object solution extends App {
   assert(End().contains(0) == false)
   // This should not compile
   // example.contains("not an Int")
+
+  assert(example(0) == 1)
+  assert(example(1) == 2)
+  assert(example(2) == 3)
+  assert(try {
+    example(3)
+    false
+  } catch {
+    case e: Exception => true
+  })
 }
