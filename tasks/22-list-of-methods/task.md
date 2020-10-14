@@ -77,3 +77,24 @@ assert(try {
   case e: Exception => true
 })
 ```
+
+*Stage 7*: Throwing an **exception isn’t cool**.
+Whenever we throw an exception we **lose type safety** as
+there is nothing in the type system that will remind us
+to deal with the error. It would be much better to return
+some kind of result that encodes we can succeed or failure.
+We introduced such a type in this very section.
+
+Define ADT for `Result`. The operation can `Success` with `result` or `Failure` with `reason`. Make it generic - so
+we can return any results.
+
+Change `apply` so it returns a `Result`, with a failure
+case indicating what went wrong. Here are some test cases
+to help you:
+
+```scala
+assert(example(0) == Success(1))
+assert(example(1) == Success(2))
+assert(example(2) == Success(3))
+assert(example(3) == Failure("Index out of bounds"))
+```

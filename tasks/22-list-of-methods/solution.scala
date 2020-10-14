@@ -1,10 +1,14 @@
+sealed trait Result[A]
+case class Success[A](result: A) extends Result[A]
+case class Failure[A](reason: String) extends Result[A]
+
 sealed trait LinkedList[A] {
-  def apply(index: Int): A = {
+  def apply(index: Int): Result[A] = {
     this match {
       case Pair(head, tail) =>
-        if (index == 0) head
+        if (index == 0) Success(head)
         else tail(index - 1)
-      case End() => throw new IndexOutOfBoundsException("Index Out Of Bounds")
+      case End() => Failure("Index out of bounds")
     }
   }
 
@@ -39,13 +43,8 @@ object solution extends App {
   // This should not compile
   // example.contains("not an Int")
 
-  assert(example(0) == 1)
-  assert(example(1) == 2)
-  assert(example(2) == 3)
-  assert(try {
-    example(3)
-    false
-  } catch {
-    case e: Exception => true
-  })
+  assert(example(0) == Success(1))
+  assert(example(1) == Success(2))
+  assert(example(2) == Success(3))
+  assert(example(3) == Failure("Index out of bounds"))
 }
