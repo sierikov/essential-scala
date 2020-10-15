@@ -57,3 +57,6 @@ def abstraction(end: Int, f: ???): Int =
 
 Rename this function to `fold`, which is the name it is
 usually known as, and finish the implementation.
+
+*Stage 2*: Now reimplement `sum`, `length`, and `product`
+in terms of `fold`.

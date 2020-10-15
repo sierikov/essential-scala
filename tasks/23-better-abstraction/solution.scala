@@ -6,24 +6,18 @@ sealed trait IntList {
     }
 
   def length: Int =
-    this match {
-      case End          => 0
-      case Pair(hd, tl) => 1 + tl.length
-    }
+    fold(0, (_, tail: Int) => 1 + tail)
+
+  def product: Int =
+    fold(1, (head: Int, tail: Int) => head * tail)
+
+  def sum: Int =
+    fold(0, (head: Int, tail: Int) => head + tail)
+
   def double: IntList =
     this match {
       case End          => End
       case Pair(hd, tl) => Pair(hd * 2, tl.double)
-    }
-  def product: Int =
-    this match {
-      case End          => 1
-      case Pair(hd, tl) => hd * tl.product
-    }
-  def sum: Int =
-    this match {
-      case End          => 0
-      case Pair(hd, tl) => hd + tl.sum
     }
 }
 
