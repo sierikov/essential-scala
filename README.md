@@ -34,6 +34,7 @@ file with interesting question about scala semantic.
 Here is a complete list of projects in this repo:
 
 1. [A Calculator](./projects/1-a-calculator/task.md)
+2. [JSON](./projects/2-json/task.md)
 
 ## List of tasks
 
@@ -61,6 +62,7 @@ Here is a complete list of all tasks:
 20. [Water, Water, Everywhere](./tasks/20-water-water-everywhere/task.md)
 21. [Calculation](./tasks/21-calculation/task.md)
 22. [List of Methods](./tasks/22-list-of-methods/task.md)
+23. [Better Abstraction](./tasks/23-better-abstraction/task.md)
 
 ## Meta
 
