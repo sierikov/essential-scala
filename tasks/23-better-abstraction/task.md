@@ -60,3 +60,6 @@ usually known as, and finish the implementation.
 
 *Stage 2*: Now reimplement `sum`, `length`, and `product`
 in terms of `fold`.
+
+*Stage 3*: Implement a generalised version of `fold` and
+rewrite `double` in terms of it.
