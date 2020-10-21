@@ -64,6 +64,7 @@ Here is a complete list of all tasks:
 22. [List of Methods](./tasks/22-list-of-methods/task.md)
 23. [Better Abstraction](./tasks/23-better-abstraction/task.md)
 24. [A Tree](./tasks/24-a-tree/task.md)
+25. [Generic Sum Type](./tasks/24-generic-sum-type/task.md)
 
 ## Meta
 
