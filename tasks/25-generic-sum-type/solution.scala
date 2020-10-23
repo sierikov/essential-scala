@@ -1,4 +1,10 @@
-sealed trait Sum[A, B]
+sealed trait Sum[A, B] {
+  def fold[C](left: A => C, right: B => C): C =
+    this match {
+      case Left(value) => left(value)
+      case Right(value) => right(value)
+    }
+}
 
 case class Left[A, B](value: A) extends Sum[A, B]
 case class Right[A, B](value: B) extends Sum[A, B]
