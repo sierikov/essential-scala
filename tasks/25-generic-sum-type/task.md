@@ -25,3 +25,5 @@ sum match {
 }
 // res11: String = foo
 ```
+
+*Stage 2*: Implement `fold` for `Sum`.
