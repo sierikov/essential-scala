@@ -35,3 +35,5 @@ In summary map should have type
 ```scala
 def map[C](f: B => C): Sum[A, C]
 ```
+
+*Stage 2*: Implement `flatMap` using the same logic as `map`.
