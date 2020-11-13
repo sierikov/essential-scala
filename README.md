@@ -65,6 +65,8 @@ Here is a complete list of all tasks:
 23. [Better Abstraction](./tasks/23-better-abstraction/task.md)
 24. [A Tree](./tasks/24-a-tree/task.md)
 25. [Generic Sum Type](./tasks/25-generic-sum-type/task.md)
+26. [Sum](./tasks/26-sum/task.md)
+27. [Covariant Sum](./tasks/27-covariant-sum/task.md)
 
 ## Meta
 
