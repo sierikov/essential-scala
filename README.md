@@ -35,6 +35,7 @@ Here is a complete list of projects in this repo:
 
 1. [A Calculator](./projects/1-a-calculator/task.md)
 2. [JSON](./projects/2-json/task.md)
+3. [Calculator, again](./projects/3-calculator-again/task.md)
 
 ## List of tasks
 
