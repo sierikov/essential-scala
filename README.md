@@ -69,6 +69,7 @@ Here is a complete list of all tasks:
 1. [Sum](./tasks/26-sum/task.md)
 1. [Covariant Sum](./tasks/27-covariant-sum/task.md)
 1. [Intranet Movie Database](./tasks/28-intranet-movie-database/task.md)
+1. [Do it yourself](./tasks/29-do-it-yourself/task.md)
 
 ## Meta
 
