@@ -4,9 +4,12 @@ case object Utils {
 
   def unique(seq: Seq[Int]): Seq[Int] =
     seq.foldLeft(Seq.empty[Int])((seq, a) =>
-      if (!seq.contains(a)) seq :+ a
-      else seq
+      if (seq.contains(a)) seq
+      else seq :+ a
     )
+
+  def reverse(seq: Seq[Int]): Seq[Int] =
+    seq.foldLeft(Seq.empty[Int])((seq, a) => a +: seq)
 }
 
 object solution extends App {
@@ -14,4 +17,5 @@ object solution extends App {
 
   Utils.smallest(seq)
   Utils.unique(seq)
+  Utils.reverse(seq)
 }
