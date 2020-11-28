@@ -10,6 +10,9 @@ case object Utils {
 
   def reverse(seq: Seq[Int]): Seq[Int] =
     seq.foldLeft(Seq.empty[Int])((seq, a) => a +: seq)
+
+  def map[A, B](seq: Seq[A])(f: A => B): Seq[B] =
+    seq.foldRight(Seq.empty[B])((a, seq) => f(a) +: seq)
 }
 
 object solution extends App {
@@ -18,4 +21,5 @@ object solution extends App {
   Utils.smallest(seq)
   Utils.unique(seq)
   Utils.reverse(seq)
+  Utils.map(seq)(_ * 2)
 }
