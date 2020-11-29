@@ -13,6 +13,12 @@ case object Utils {
 
   def map[A, B](seq: Seq[A])(f: A => B): Seq[B] =
     seq.foldRight(Seq.empty[B])((a, seq) => f(a) +: seq)
+
+  def foldLeft[A, B](seq: Seq[A])(id: B)(f: (B, A) => B): B = {
+    var result: B = id
+    seq.foreach(element => result = f(result, element))
+    result
+  }
 }
 
 object solution extends App {
@@ -22,4 +28,5 @@ object solution extends App {
   Utils.unique(seq)
   Utils.reverse(seq)
   Utils.map(seq)(_ * 2)
+  Utils.foldLeft(seq)(Int.MinValue)(math.max)
 }
